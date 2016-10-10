@@ -1,0 +1,42 @@
+{
+  "name": "web-site-for-Mark",
+  "version": "0.0.0",
+  "description": "## How to run",
+  "main": "dev/index.js",
+  "scripts": {
+    "postinstall": "bower i --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multicora/webSiteForMark.git"
+  },
+  "author": "Multicora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multicora/webSiteForMark/issues"
+  },
+  "homepage": "https://github.com/multicora/webSiteForMark#readme",
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "connect-modrewrite": "^0.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-open": "^2.0.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "main-bower-files": "^2.13.1"
+  }
+}
