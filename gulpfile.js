@@ -99,11 +99,35 @@ gulp.task('assets', function () {
     .pipe( gulp.dest(path.dest + '/files') );
 });
 
+// Dev tasks
+gulp.task('server', function() {
+  return connect.server({
+    root: path.dest,
+    port: 9000,
+    livereload: true,
+    middleware: function(connect, o) {
+      return [
+        modrewrite(
+          [
+            '^/api/(.*)$ http://localhost:80/api/$1 [P]',
+            '^/uploads/(.*)$ http://localhost:80/uploads/$1 [P]'
+          ]
+        )
+      ];
+    }
+  });
+});
+
 gulp.task('watch', function() {
   gulp.watch(path.js, ['app-js']);
   gulp.watch(path.jade, ['compile-jade']);
   gulp.watch(path.css, ['app-css']);
   return gulp.watch(path.assets, ['assets']);
+});
+
+gulp.task('openUrl', function() {
+  return gulp.src(__filename)
+    .pipe( openUrl({uri: 'http://localhost:9000/'}) );
 });
 
 gulp.task('clean', function() {
@@ -123,7 +147,7 @@ gulp.task('build', function() {
 });
 
 gulp.task('dev', function() {
-  return sequence(['clean'], buildTasks, ['watch'], function() {
+  return sequence(['clean'], buildTasks, ['server', 'watch'], 'openUrl', function() {
     return log(' -| Runned');
   });
 });

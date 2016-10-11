@@ -1,0 +1,47 @@
+$primary-title-color: #556978;
+$blue-color: #30c1e6;
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .title {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .button-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+
+  .btn:hover {
+    opacity: 0.5;
+    transition: 1s;
+  }
+
+  .btn-bord {
+    border: 2px solid #fff;
+    background: none;
+  }
+
+  .btn-blue {
+    background-color: $blue-color;
+  }
+}
