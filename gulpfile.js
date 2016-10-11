@@ -22,8 +22,8 @@ var config = {
     browsers: ['last 2 versions'],
     cascade: false
   },
-  scssOrder: ['**/main.scss'],
-  jsOrder: ['**/main.js']
+  scssOrder: ['**/app.scss'],
+  jsOrder: ['**/app.js']
 };
 
 var path = {};
