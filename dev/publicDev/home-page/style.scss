@@ -398,6 +398,9 @@ $dark-blue-color: #0c3952;
 
 // FREE BLUEPRINT 
   .free-blueprint {
+    position: relative;
+    margin-top: -8px;
+    z-index: 99;
     height: 104.5px;
     background: rgba(45,141,214,1);
     background: -moz-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
