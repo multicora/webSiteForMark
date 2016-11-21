@@ -44,14 +44,23 @@ $dark-blue-color: #0c3952;
         font-size: 7.5px;
         margin-right: 20.5px;
 
-      li:last-child {
-        margin-right: 18.5px;
-        }
-
         a {
           color: $blue-color;
         }
+      }
 
+      li {
+        opacity: 1;
+        transition: 1s;
+      }
+
+      li:last-child {
+        margin-right: 18.5px;
+      }
+
+      li:hover {
+        opacity: 0.5;
+        transition: 1s;
       }
     }
   }
