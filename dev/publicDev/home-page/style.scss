@@ -494,7 +494,7 @@ $dark-blue-color: #0c3952;
         .icon {
           margin-top: 2rem;
 
-          .insta img,
+          .twitter img,
           .youtube img,
           .facebook img{
             width: 4rem;
@@ -525,6 +525,7 @@ $dark-blue-color: #0c3952;
           border: none;
           padding-left: 2rem;
           vertical-align: middle;
+          line-height: 2rem;
         }
 
         .search-input::placeholder {
@@ -541,7 +542,6 @@ $dark-blue-color: #0c3952;
           background-color: #408abe;
           font-size: 2rem;
           letter-spacing: 0.04rem;
-          // line-height: 5.45rem;
           vertical-align: middle;
         }
       }
