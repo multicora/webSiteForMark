@@ -12,13 +12,15 @@
 
     vm.animated = function (elementId, oldClass, newClass) {
       var element = document.getElementById(elementId);
-      var elementY = element.offsetTop-300;
+      var elementY = element.offsetTop-500;
 
       if (window.scrollY >= elementY) {
         element.classList.remove(oldClass);
         element.classList.add(newClass);
       }
     }
+
+    console.log(document.getElementById('more-icon1').offsetTop);
 
     window.addEventListener('scroll', function(e) {  
       vm.animated('more-icon1', 'none', 'fadeInUp');

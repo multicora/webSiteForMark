@@ -33,13 +33,17 @@ $blue-color: #30c1e6;
   font-style: normal;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 
   .wrapper {
-    width: 720px;
+    width: 144rem;
     margin: 0 auto;
   }
   
@@ -79,14 +83,14 @@ body {
   }
 
   .btn-bord {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: none;
   }
 
   .PTmonoto-title {
     font-family: 'PTmono';
     color: #07263b;
-    font-size: 20px;
+    font-size: 4rem;
     font-weight: normal;
   }
 

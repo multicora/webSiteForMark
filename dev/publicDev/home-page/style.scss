@@ -9,40 +9,42 @@ $dark-blue-color: #0c3952;
 
   .main-content {
     position: relative;
-    margin-bottom: 123px;
+    margin-bottom: 24.6rem;
     z-index: 222;
   }
 // HEADER
   header {
-    width: 720px;
+    width: 144rem;
+    display: inline-block;
     position: fixed;
-    height: 45px;
+    height: 9.1rem;
     background-color: #fff;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.14);
     z-index: 9999;
 
     .logo {
       display: inline-block;
-      margin-right: 258px;
 
       img {
-        width: 107.5px;
-        height: 21.5px;
-        padding: 12px 0 0 29px;
+        width: 21.5rem;
+        height: 4.3rem;
+        padding: 2.4rem 0 0 5.8rem;
       }
     }
 
     .navigation {
       display: inline-block;
-      height: 21.5px;
+      height: 4.3rem;
       vertical-align: middle;
       font-family: 'Cabin';
       text-transform: uppercase;
+      padding-top: 2.8rem;
+      float: right;
 
       li {
         display: inline-block;
-        font-size: 7.5px;
-        margin-right: 20.5px;
+        font-size: 1.5rem;
+        margin-right: 4.1rem;
 
         a {
           color: $blue-color;
@@ -55,7 +57,7 @@ $dark-blue-color: #0c3952;
       }
 
       li:last-child {
-        margin-right: 18.5px;
+        margin-right: 3.7rem;
       }
 
       li:hover {
@@ -69,82 +71,83 @@ $dark-blue-color: #0c3952;
   .top-bunner {
 
     .banner {
-      height: 348px;
+      height: 69.7rem;
       background-color: $dark-blue-color;
       background-image: url(files/home-b-g.png);
+      background-size: 100% 78.8rem;
       background-repeat: no-repeat;
-      background-size: 100% 400px;
       background-attachment: fixed;
-      padding-top: 45px;
+      padding-top: 9.1rem;
       color: #fff;
 
       .title {
         font-family: 'PTmono';
         width: 100%;
         font-weight: bold;
-        font-size: 32px;
-        margin: 133px 0 19px 0;
+        font-size: 6.4rem;
+        margin: 17.9rem 0 3.8rem 0;
       }
 
       .sub-title {
         width: 100%;
         display: inline-block;
         text-align: center;
-        font-size: 12px;
+        font-size: 2.4rem;
         font-family: 'Lato';
       }
 
       .learn-more {
-        margin-top: 63.5px;
-        font-size: 9px;
-        width: 123px;
-        height: 25px;
-        letter-spacing: 2.6px;
+        margin-top: 12.7rem;
+        font-size: 1.8rem;
+        width: 24.6rem;
+        height: 5rem;
+        letter-spacing: .51rem;
       }
     }
 
     .get-more-customer {
       background-color: rgb(248, 248, 248);
-      height: 261.5px;
-      padding: 0 61.5px;
+      height: 52.3rem;
+      padding: 0 12.2rem;
 
       .title {
         font-weight: normal;
         margin: 0 auto;
-        padding-top: 27px;
-        width: 482px; 
+        padding-top: 8.4rem;
+        width: 95.5rem; 
       }
 
       .info {
         display: inline-block;
-        width: 180px;
+        width: 36rem;
         vertical-align: top;
-        margin: 30px 28px 0 0;
+        margin: 6.5rem 5.8rem 0 0;
 
         .icon {
-          width: 37px;
-          height: 37px;
+          width: 7rem;
+          height: 7rem;
           float: left;
-          margin-right: 9px;
+          margin-right: 2.2rem;
         }
 
         .info-content {
-          width: 132.5px;
+          width: 25.9rem;
           float: right;
 
           .title {
             font-family: 'Roboto';
-            font-size: 10px;
+            font-size: 2rem;
             font-weight: 600;
             color: #408abe;
-            letter-spacing: 1px;
+            letter-spacing: 0.2rem;
           }
 
           .content {
             font-family: 'Roboto';
             color: #4a4a4a;
-            font-size: 7px;
-            margin-top: 5px;
+            font-size: 1.4rem;
+            margin-top: 1rem;
+            letter-spacing: 0.04rem;
           }
         }
       }
@@ -162,12 +165,12 @@ $dark-blue-color: #0c3952;
 // LOGOS
   .client-logos {
     background-color: #f6f6f6;
-    height: 112.5px;
+    height: 22.5rem;
 
     img {
-      width: 474.5px;
-      height: 31.5px;
-      padding: 40.5px 0;
+      width: 94.9rem;
+      height: 6.3rem;
+      padding: 8.1rem 0;
       margin: 0 auto;
       display: block;
     }
@@ -182,49 +185,45 @@ $dark-blue-color: #0c3952;
     background-color: #fff;
 
     .title {
-      padding-top: 37px;
-      margin: 0 auto 37px 0;
+      padding: 7.4rem 0;
+      margin: 0 auto;
     }
 
     .container {
       background-color: #f7f7f7;
-      height: 688px;
+      height: 137.8rem;
 
       .content-container {
         .content {
           display: inline-block;
-          width: 360px;
+          width: 72rem;
           vertical-align: top;
 
           .content-title {
             color: #408abe;
             font-family: 'PTmono';
-            font-size: 15px;
+            font-size: 3rem;
             font-weight: normal;
-            margin: 39px 0 0 58px;
+            margin: 7.8rem 0 0 11.6rem;
           }
 
           .context {
             font-family: 'Roboto';
-            font-size: 8px;
+            font-size: 1.6rem;
             color: #4a4a4a;
-            width: 184px;
-            margin: 16.5px 0 0 78.5px;
+            width: 36.9rem;
+            margin: 3.3rem 0 0 15.7rem;
           }
         }
 
         .photo-slide {
           display: inline-block;
-          width: 360px;
-          height: 235.5px;
+          width: 72rem;
+          height: 47.1rem;
         }
 
         .first-slide {
-          margin-top: -10px;
-        }
-
-        .last-slide {
-          margin-bottom: -10px;
+          margin-top: -2rem;
         }
       }
 
@@ -243,39 +242,39 @@ $dark-blue-color: #0c3952;
     background: -ms-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
     background: linear-gradient(to bottom, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d8dd6', endColorstr='#30c0e8', GradientType=0 ); 
-    height: 250px;
+    height: 50rem;
 
     .title {
       font-family: 'PTmono';
       font-weight: bold;
       color: #fdfdfd;
-      padding-top: 45px;
+      padding-top: 9.1rem;
     }
 
     .content {
-      padding: 0 59.5px;
+      padding: 0 11.9rem;
 
       .info {
         display: inline-block;
-        width: 190px;
-        margin-right: 12.5px; 
-        height: 74.5px;
+        width: 38rem;
+        margin-right: 2.5rem; 
+        height: 14.9rem;
         background-color: #ffffff;
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14);
 
         .icon {
           float: left;
-          width: 25px;
-          height: 22px;
-          margin: 25px 7px 0 31px;
+          width: 5rem;
+          height: 5rem;
+          margin: 5rem 1.4rem 0 6.2rem;
         }
 
         .text {
           font-family: 'Roboto';
-          font-size: 9px;
+          font-size: 1.8rem;
           font-weight: 300;
           color: #6c6c6c;
-          margin-top: 26px;
+          margin-top: 5.34rem;
         }
       }
 
@@ -285,40 +284,40 @@ $dark-blue-color: #0c3952;
     }
 
     .start {
-      margin-top: 21.5px;
-      width: 123px;
-      height: 22.5px;
+      margin-top: 4.3rem;
+      width: 24.6rem;
+      height: 4.5rem;
       font-family: 'Roboto';
-      font-size: 10px;
-      letter-spacing: .6px;
+      font-size: 2rem;
+      letter-spacing: 0.13rem;
     }
   }
 
 // WHO WORKS WITH US
   .who-works-with-us {
     background-color: #fff;
-    height: 330px;
+    height: 66rem;
 
     .title {
-      padding-top: 25px;
+      padding-top: 8.2rem;
     }
 
     .sub-title {
-      width: 327px;
+      width: 65.5rem;
       text-align: center;
-      margin: 39.5px auto 0 auto;
+      margin: 8rem auto 0 auto;
       color: #4a4a4a;
       font-family: Helvetica;
-      font-size: 16px;
-      letter-spacing: .8px;
+      font-size: 3.2rem;
+      letter-spacing: 0.16rem;
       font-weight: normal;
     }
 
     .partners {
-      width: 108.5px;
-      margin: 29px auto 0 auto;
+      width: 21.7rem;
+      margin: 5.8rem auto 0 auto;
       font-family: 'Roboto';
-      font-size: 10px;
+      font-size: 2rem;
       color: #408abe;
       text-align: center;
 
@@ -328,14 +327,14 @@ $dark-blue-color: #0c3952;
     }
 
     .photos {
-      width: 237px;
-      margin: 23px auto 0 auto;
+      width: 47.4rem;
+      margin: 4.6rem auto 0 auto;
 
       img {
-        width: 45px;
-        height: 45px;
-        border-radius: 25px;
-        margin-right: 19px;
+        width: 9rem;
+        height: 9rem;
+        border-radius: 4.5rem;
+        margin-right: 3.8rem;
       }
 
       img:last-child {
@@ -347,49 +346,52 @@ $dark-blue-color: #0c3952;
 // BLUEPRINT
   .blueprint {
     background: #f7f7f7;
-    height: 294.5px;
+    height: 57.5rem;
     border-top: solid 1px rgba(156,175,195,0.1);
 
     .title {
-      padding-top: 36px;
+      padding-top: 7.2rem;
     }
 
     .sub-title {
-      width: 100%;
+      width: 79.6rem;
+      margin: 4.3rem auto 0 auto;
       text-align: center;
+      font-size: 1.6rem;
+      letter-spacing: 0.07rem;
     }
 
     .content-container {
-      margin: 28.5px auto 0 auto;
-      width: 500px;
+      margin: 7.4rem auto 0 auto;
+      width: 96.9rem;
+      background-color: #ffffff;
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14);
 
       .icon {
         float: left;
-        width: 177px;
-        height: 177.5px;
-        margin: -20px 16px 0 -23px;
+        width: 35.4rem;
+        height: 35.5rem;
+        margin: -3rem 5.4rem 0 -6rem;
       }
 
       .content {
-        width: 484.5px;
-        height: 138px;
+        width: 81.9rem;
+        height: 32rem;
         font-family: 'Roboto';
         color: #4a4a4a;
         text-align: left;
-        padding: 12px 16.5px 0 16.5px;
+        padding: 2.4rem 3.3rem 0 4.1rem;
         vertical-align: top;
-        background-color: #ffffff;
-        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14);
 
         .top-text {
-          font-size: 13px;
-          letter-spacing: 0.5px;
+          font-size: 2.6rem;
+          letter-spacing: 0.11rem;
           text-align: left;
         }
 
         .context {
-          font-size: 8px;
-          letter-spacing: 0.3px;
+          font-size: 1.6rem;
+          letter-spacing: 0.07rem;
           font-weight: 500;
         }
       }
@@ -399,9 +401,9 @@ $dark-blue-color: #0c3952;
 // FREE BLUEPRINT 
   .free-blueprint {
     position: relative;
-    margin-top: -8px;
+    margin-top: -0.8rem;
     z-index: 99;
-    height: 104.5px;
+    height: 20.9rem;
     background: rgba(45,141,214,1);
     background: -moz-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #30c1e8), color-stop(67%, #2ea0dd), color-stop(100%, #2d8dd6));
@@ -414,26 +416,28 @@ $dark-blue-color: #0c3952;
 
     .title {
       font-family: 'Roboto';
-      font-size: 13px;
+      font-size: 2.6rem;
       font-weight: 500;
-      padding-top: 26px;
-      letter-spacing: 0.5px;
+      padding-top: 5.2rem;
+      letter-spacing: 0.1rem;
       margin-top: 0;
+      width: 100%;
+      text-align: center;
     }
 
     .get-free {
-      width: 140px;
-      height: 22px;
-      font-size: 10px;
-      letter-spacing: .6px;
+      width: 27.8rem;
+      height: 4.44rem;
+      font-size: 2rem;
+      letter-spacing: 0.13rem;
     }
   }
 
 // FOOTER
   footer {
     z-index: 1;
-    width: 720px;
-    height: 123.5px;
+    width: 144rem;
+    height: 24.7rem;
     position: fixed;
     bottom: 0;
     background: rgba(7,39,61,1);
@@ -447,49 +451,49 @@ $dark-blue-color: #0c3952;
 
     .info {
       display: inline-block;
-      width: 105px;
-      margin-left: 94.5px;
-      padding-top: 28.5px;
+      width: 21rem;
+      margin-left: 18.9rem;
+      padding-top: 5.7rem;
 
       .logo {
-        width: 95px;
-        height: 19px;
-        margin-bottom: 7.5px;
+        width: 19rem;
+        height: 3.8rem;
+        margin-bottom: 1.5rem;
       }
 
       .text {
-        font-size: 7px;
+        font-size: 1.4rem;
         font-family: 'Roboto';
         color: #9cafc3;
       }
 
       .text:last-child {
-        margin-top: 5.5px;
+        margin-top: 1.1rem;
       }
     }
 
     .social {
       display: inline-block;
       font-family: 'Roboto';
-      font-size: 7px;
-      letter-spacing: 1.1px;
+      font-size: 1.4rem;
+      letter-spacing: 0.21rem;
       text-transform: uppercase;
       color: #9cafc3;
       text-align: left;
-      margin-left: 121px;
+      margin-left: 23.9rem;
       vertical-align: top;
-      padding-top: 33.1px;
+      padding-top: 6.61rem;
 
       .icon {
-        margin-top: 20px;
+        margin-top: 2rem;
 
         .insta img,
         .youtube img,
         .facebook img{
-          width: 18px;
-          height: 18px;
+          width: 4rem;
+          height: 4rem;
           object-fit: contain;
-          margin-right: 15px;
+          margin-right: 2rem;
         }
 
         .facebook {
@@ -500,35 +504,35 @@ $dark-blue-color: #0c3952;
 
     .search {
       display: inline-block;
-      padding-top: 40.5px;
+      padding-top: 8.1rem;
       vertical-align: top;
-      margin-left: 30px;
+      margin-left: 9.7rem;
 
       .search-input {
-        width: 166.5px;
-        height: 27.3px;
+        width: 33.3rem;
+        height: 5.45rem;
         background-color: #ffffff;
         box-shadow: 0 0 16px 2.5px rgba(0, 0, 0, 0.11);
         border: none;
-        padding-left: 10px;
+        padding-left: 2rem;
+        vertical-align: middle;
       }
 
       .search-input::placeholder {
-        width: 98px;
-        height: 12px;
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 2rem;
         font-weight: normal;
         color: #9b9b9b;
       }
 
       .subscribe {
-        width: 77.5px;
-        height: 27.3px;
+        width: 15.5rem;
+        height: 5.45rem;
         background-color: #408abe;
-        font-size: 10px;
-        letter-spacing: 0.2px;
-        line-height: 27.3px;
+        font-size: 2rem;
+        letter-spacing: 0.04rem;
+        // line-height: 5.45rem;
+        vertical-align: middle;
       }
     }
   }
