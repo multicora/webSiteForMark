@@ -19,9 +19,7 @@
         element.classList.add(newClass);
       }
     }
-
-    console.log(document.getElementById('more-icon1').offsetTop);
-
+    
     window.addEventListener('scroll', function(e) {  
       vm.animated('more-icon1', 'none', 'fadeInUp');
       vm.animated('more-icon2', 'none', 'fadeInUp');
