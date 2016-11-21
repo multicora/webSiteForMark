@@ -14,7 +14,7 @@ $dark-blue-color: #0c3952;
   }
 // HEADER
   header {
-    width: 144rem;
+    width: 100%;
     display: inline-block;
     position: fixed;
     height: 9.1rem;
@@ -108,7 +108,6 @@ $dark-blue-color: #0c3952;
     .get-more-customer {
       background-color: rgb(248, 248, 248);
       height: 52.3rem;
-      padding: 0 12.2rem;
 
       .title {
         font-weight: normal;
@@ -117,11 +116,15 @@ $dark-blue-color: #0c3952;
         width: 95.5rem; 
       }
 
+      .info-container {
+        width: 119.5rem;
+        margin: 0 auto;
+      }
+
       .info {
         display: inline-block;
-        width: 36rem;
         vertical-align: top;
-        margin: 6.5rem 5.8rem 0 0;
+        padding: 6.5rem 5.8rem 0 0;
 
         .icon {
           width: 7rem;
@@ -153,7 +156,7 @@ $dark-blue-color: #0c3952;
       }
 
       .info:last-child {
-        margin-right: 0;
+        padding-right: 0;
       }
 
       .none {
@@ -191,12 +194,11 @@ $dark-blue-color: #0c3952;
 
     .container {
       background-color: #f7f7f7;
-      height: 137.8rem;
 
       .content-container {
         .content {
           display: inline-block;
-          width: 72rem;
+          width: 50%;
           vertical-align: top;
 
           .content-title {
@@ -218,8 +220,8 @@ $dark-blue-color: #0c3952;
 
         .photo-slide {
           display: inline-block;
-          width: 72rem;
-          height: 47.1rem;
+          width: 50%;
+          // height: 47.1rem;
         }
 
         .first-slide {
@@ -235,6 +237,7 @@ $dark-blue-color: #0c3952;
 
 // WHAT YOU WILL GET
   .what-you-will-get {
+    margin-top: -2em; 
     background: -moz-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #30c1e8), color-stop(67%, #2ea0dd), color-stop(100%, #2d8dd6));
     background: -webkit-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
@@ -252,7 +255,8 @@ $dark-blue-color: #0c3952;
     }
 
     .content {
-      padding: 0 11.9rem;
+      width: 119rem;
+      margin: 0 auto;
 
       .info {
         display: inline-block;
@@ -436,7 +440,7 @@ $dark-blue-color: #0c3952;
 // FOOTER
   footer {
     z-index: 1;
-    width: 144rem;
+    width: 100%;
     height: 24.7rem;
     position: fixed;
     bottom: 0;
@@ -449,90 +453,94 @@ $dark-blue-color: #0c3952;
     background: linear-gradient(to bottom, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c3953', endColorstr='#07273d#0c3953', GradientType=0 );
 
-    .info {
-      display: inline-block;
-      width: 21rem;
-      margin-left: 18.9rem;
-      padding-top: 5.7rem;
+  .footer-container {
+      width: 119.5rem;
+      margin: 0 auto;
 
-      .logo {
-        width: 19rem;
-        height: 3.8rem;
-        margin-bottom: 1.5rem;
+      .info {
+        display: inline-block;
+        width: 21rem;
+        padding-top: 5.7rem;
+
+        .logo {
+          width: 19rem;
+          height: 3.8rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .text {
+          font-size: 1.4rem;
+          font-family: 'Roboto';
+          color: #9cafc3;
+        }
+
+        .text:last-child {
+          margin-top: 1.1rem;
+        }
       }
 
-      .text {
-        font-size: 1.4rem;
+      .social {
+        display: inline-block;
         font-family: 'Roboto';
+        font-size: 1.4rem;
+        letter-spacing: 0.21rem;
+        text-transform: uppercase;
         color: #9cafc3;
-      }
+        text-align: left;
+        margin-left: 21.9rem;
+        vertical-align: top;
+        padding-top: 6.61rem;
 
-      .text:last-child {
-        margin-top: 1.1rem;
-      }
-    }
+        .icon {
+          margin-top: 2rem;
 
-    .social {
-      display: inline-block;
-      font-family: 'Roboto';
-      font-size: 1.4rem;
-      letter-spacing: 0.21rem;
-      text-transform: uppercase;
-      color: #9cafc3;
-      text-align: left;
-      margin-left: 23.9rem;
-      vertical-align: top;
-      padding-top: 6.61rem;
+          .insta img,
+          .youtube img,
+          .facebook img{
+            width: 4rem;
+            height: 4rem;
+            object-fit: contain;
+            margin-right: 2rem;
+          }
 
-      .icon {
-        margin-top: 2rem;
-
-        .insta img,
-        .youtube img,
-        .facebook img{
-          width: 4rem;
-          height: 4rem;
-          object-fit: contain;
-          margin-right: 2rem;
-        }
-
-        .facebook {
-          margin-right: 0;
+          .facebook {
+            margin-right: 0;
+          }
         }
       }
-    }
 
-    .search {
-      display: inline-block;
-      padding-top: 8.1rem;
-      vertical-align: top;
-      margin-left: 9.7rem;
+      .search {
+        display: inline-block;
+        padding-top: 8.1rem;
+        vertical-align: top;
+        margin-left: 9.7rem;
 
-      .search-input {
-        width: 33.3rem;
-        height: 5.45rem;
-        background-color: #ffffff;
-        box-shadow: 0 0 16px 2.5px rgba(0, 0, 0, 0.11);
-        border: none;
-        padding-left: 2rem;
-        vertical-align: middle;
-      }
+        .search-input {
+          width: 33.3rem;
+          height: 5.45rem;
+          background-color: #ffffff;
+          box-shadow: 0 0 16px 2.5px rgba(0, 0, 0, 0.11);
+          border: none;
+          padding-left: 2rem;
+          vertical-align: middle;
+        }
 
-      .search-input::placeholder {
-        font-family: Roboto;
-        font-size: 2rem;
-        font-weight: normal;
-        color: #9b9b9b;
-      }
+        .search-input::placeholder {
+          font-family: Roboto;
+          font-size: 2rem;
+          font-weight: normal;
+          color: #9b9b9b;
+        }
 
-      .subscribe {
-        width: 15.5rem;
-        height: 5.45rem;
-        background-color: #408abe;
-        font-size: 2rem;
-        letter-spacing: 0.04rem;
-        // line-height: 5.45rem;
-        vertical-align: middle;
+        .subscribe {
+          width: 15.5rem;
+          height: 5.45rem;
+          background-color: #408abe;
+          font-size: 2rem;
+          letter-spacing: 0.04rem;
+          // line-height: 5.45rem;
+          vertical-align: middle;
+        }
       }
     }
   }
