@@ -5,11 +5,13 @@ var app = angular.module('app');
   app.
     config(['$routeProvider', function($routeProvider) {
 
-    $routeProvider.when(
-      '/home',
-      {
-        templateUrl: 'home-page/template.html'
-      }
-    );
+      $routeProvider.when(
+        '/',
+        {
+          templateUrl: 'home-page/template.html',
+          controller: 'homePageController',
+          controllerAs: 'vm'
+        }
+      );
   }]);
 })(angular);
