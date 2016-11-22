@@ -49,5 +49,13 @@
       vm.animated('will-get', 'none', 'fadeInDown');
     });
 
+    vm.slide = function(length) {
+      var slider = document.getElementById('slider');
+      var slideWidth = document.getElementById('slider-box').offsetWidth;
+      var partnersSlider = document.getElementById('partners-slider');
+      var partnersSliderWidth = document.getElementById('partners-slider-box').offsetWidth;
+      slider.style.marginLeft = -(slideWidth * length);
+      partnersSlider.style.marginLeft = -(partnersSliderWidth * length);
+    }
   }
 })();

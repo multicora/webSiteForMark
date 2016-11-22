@@ -98,15 +98,29 @@
     //- WHO-WORKS-WITH-US
     .who-works-with-us
       h3.title.PTmonoto-title Who Works With Us
-      h4.sub-title “Mark has great intuition nd innovative ideas when it comes to lead generation, marketing, sales, and business in general”
-      .partners
-        p Chris Caudette 
-        p VP of Sales, Modus Link
+      .slider-box#slider-box
+        ul.slider#slider
+          li.slide “Mark has great intuition nd innovative ideas when it comes to lead generation, marketing, sales, and business in general”
+          li.slide “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint alias excepturi rem ut ipsam at itaque exercitationem, quidem, animi, explicabo doloremque unde magnam vitae atque. Voluptatibus totam fugit, placeat tempora?”
+          li.slide “Mark innovative ideas when it comes to lead generation, marketing, sales, and business in general”
+          li.slide “Lorem ipsum dolor sit amet, consectetur adipisicing elem, animi, explicabo doloremque unde magnam vitae atque. Voluptatibus totam fugit, placeat tempora?”
+      .partners-slider-box#partners-slider-box
+        ul.partners-slider#partners-slider
+          li.slide
+            p Chris Caudette 
+            p VP of Sales, Modus Link
+          li.slide
+            p Cwqws Caqwqwqw 
+            p VP of Sales, Modus Link
       .photos
-        img(src="files/avatar@3x.png", alt="")
-        img(src="files/avatar_2@3x.png", alt="")
-        img(src="files/avatar_3@3x.png", alt="")
-        img(src="files/avatar_4@3x.png", alt="")
+        button(type="button" ng-click='vm.slide(0)')
+          img(src="files/avatar_3@3x.png", alt="")
+        button(type="button" ng-click='vm.slide(1)')
+          img(src="files/avatar_4@3x.png", alt="")
+        button(type="button" ng-click='vm.slide(2)')
+          img(src="files/avatar_2@3x.png", alt="")
+        button(type="button" ng-click='vm.slide(3)')
+          img(src="files/avatar@3x.png", alt="")
     //- BLUEPRINT
     .blueprint
       h3.title.PTmonoto-title Blueprint for Sales Lead Follow-up
