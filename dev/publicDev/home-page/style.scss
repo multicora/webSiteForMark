@@ -26,52 +26,51 @@ $dark-blue-color: #0c3952;
       display: inline-block;
 
       .logo-icon {
-        width: 5rem;
-        height: 5rem;
+        width: 6rem;
+        height: 6rem;
         position: fixed;
-        top: 0.3rem;
         transition: 3s;
       }
 
       .logo-scaling {
         height: 3rem;
-        width: 9rem;
+        width: 7rem;
         position: fixed;
-        left: 5.5rem;
+        left: 6.2rem;
       }
 
       .logo-sales {
-        height: 2.6rem;
-        width: 7.4rem;
+        height: 3rem;
+        width: 5.4rem;
         position: fixed;
-        top: 2.6rem;
-        left: 5.4rem;
+        top: 2.3rem;
+        left: 6.4rem;
       }
 
       //Animated
 
       .logo-icon-animated {
-        width: 2.7rem;
-        height: 2.7rem;
-        transform: translate(24px, 25px);
+        width: 3.7rem;
+        height: 3.7rem;
+        transform: translate(24px, 22px);
         transition: 2s;
       }
 
       .logo-scaling-animated {
-        transform: translate(0, 27px);
+        transform: translate(0, 23px);
         transition: 2s;
       }
 
       .logo-sales-animated {
-        transform: translate(92px, 0);
+        transform: translate(67px, 0);
         transition: 2s;
       }
 
       //Animated-top
 
       .logo-icon-animated-top {
-        width: 2.7rem;
-        height: 2.7rem;
+        width: 3.7rem;
+        height: 3.7rem;
         transform: translate(24px, 10px);
         transition: 2s;
       }
@@ -82,7 +81,7 @@ $dark-blue-color: #0c3952;
       }
 
       .logo-sales-animated-top {
-        transform: translate(92px, -15px);
+        transform: translate(67px, -11px);
         transition: 2s;
       }
 
