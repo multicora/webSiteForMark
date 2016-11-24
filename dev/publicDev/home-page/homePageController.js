@@ -33,12 +33,6 @@
         logoIcon.classList.add('logo-icon-animated');
       }, 500);
 
-      setTimeout(function() {
-        logoSales.classList.add('logo-sales-animated-top');
-        logoScaling.classList.add('logo-scaling-animated-top');
-        logoIcon.classList.add('logo-icon-animated-top');
-      }, 2500);
-
       vm.animated('more-icon1', 'none', 'fadeInUp');
       vm.animated('more-icon2', 'none', 'fadeInUp');
       vm.animated('more-icon3', 'none', 'fadeInUp');

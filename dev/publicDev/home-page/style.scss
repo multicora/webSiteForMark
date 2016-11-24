@@ -52,35 +52,16 @@ $dark-blue-color: #0c3952;
       .logo-icon-animated {
         width: 3.7rem;
         height: 3.7rem;
-        transform: translate(24px, 22px);
-        transition: 2s;
-      }
-
-      .logo-scaling-animated {
-        transform: translate(0, 23px);
-        transition: 2s;
-      }
-
-      .logo-sales-animated {
-        transform: translate(67px, 0);
-        transition: 2s;
-      }
-
-      //Animated-top
-
-      .logo-icon-animated-top {
-        width: 3.7rem;
-        height: 3.7rem;
         transform: translate(24px, 10px);
         transition: 2s;
       }
 
-      .logo-scaling-animated-top {
+      .logo-scaling-animated {
         transform: translate(0px, 12px);
         transition: 2s;
       }
 
-      .logo-sales-animated-top {
+      .logo-sales-animated {
         transform: translate(67px, -11px);
         transition: 2s;
       }
