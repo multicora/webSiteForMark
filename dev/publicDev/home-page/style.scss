@@ -1,0 +1,629 @@
+$primary-title-color: #556978;
+$blue-color: #30c1e6;
+$dark-blue-color: #0c3952;
+
+.wrapper {
+  .none {
+    opacity: 0;
+  }
+
+  .main-content {
+    position: relative;
+    margin-bottom: 24.6rem;
+    z-index: 222;
+  }
+// HEADER
+  header {
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    height: 6.4rem;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.14);
+    z-index: 9999;
+
+    .logo {
+      display: inline-block;
+
+      .logo-scaling {
+        height: 3rem;
+        width: 7rem;
+        position: fixed;
+        left: 2.2rem;
+      }
+
+      .logo-sales {
+        height: 3rem;
+        width: 5.4rem;
+        position: fixed;
+        top: 2.3rem;
+        left: 2.4rem;
+      }
+
+      //Animated
+
+      .logo-scaling-animated {
+        transform: translate(0px, 12px);
+        transition: 1s;
+      }
+
+      .logo-sales-animated {
+        transform: translate(67px, -11px);
+        transition: 1s;
+      }
+
+      img {
+        width: 21.5rem;
+        height: 4.3rem;
+        padding: .6rem 0 0 5.8rem;
+      }
+    }
+
+    .navigation {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: 'Cabin';
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0;
+      float: right;
+      line-height: 6.4rem;
+
+      li {
+        display: inline-block;
+        font-size: 1.5rem;
+        margin-right: 4.1rem;
+
+        a {
+          color: $blue-color;
+        }
+      }
+
+      li {
+        opacity: 1;
+        transition: 1s;
+      }
+
+      li:last-child {
+        margin-right: 3.7rem;
+      }
+
+      li:hover {
+        opacity: 0.5;
+        transition: 1s;
+      }
+    }
+  }
+
+// TOP BUNNER
+  .top-bunner {
+
+    .banner {
+      height: 69.7rem;
+      background-color: $dark-blue-color;
+      background-image: url(files/home-b-g.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      padding-top: 9.1rem;
+      color: #fff;
+
+      .title {
+        font-family: 'PTmono';
+        width: 100%;
+        font-weight: bold;
+        font-size: 6.4rem;
+        margin: 17.9rem 0 3.8rem 0;
+      }
+
+      .sub-title {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-size: 2.4rem;
+        font-family: 'Lato';
+      }
+
+      .learn-more {
+        margin-top: 12.7rem;
+        font-size: 1.8rem;
+        width: 24.6rem;
+        height: 5rem;
+        letter-spacing: .51rem;
+      }
+    }
+
+    .get-more-customer {
+      background-color: rgb(248, 248, 248);
+      height: 52.3rem;
+
+      .title {
+        font-weight: normal;
+        margin: 0 auto;
+        padding-top: 8.4rem;
+        width: 95.5rem; 
+      }
+
+      .info-container {
+        width: 119.5rem;
+        margin: 0 auto;
+      }
+
+      .info {
+        display: inline-block;
+        vertical-align: top;
+        padding: 6.5rem 5.8rem 0 0;
+
+        .icon {
+          width: 7rem;
+          height: 7rem;
+          float: left;
+          margin-right: 2.2rem;
+        }
+
+        .info-content {
+          width: 25.9rem;
+          float: right;
+
+          .title {
+            font-family: 'Roboto';
+            font-size: 2rem;
+            font-weight: 600;
+            color: #408abe;
+            letter-spacing: 0.2rem;
+          }
+
+          .content {
+            font-family: 'Roboto';
+            color: #4a4a4a;
+            font-size: 1.4rem;
+            margin-top: 1rem;
+            letter-spacing: 0.04rem;
+          }
+        }
+      }
+
+      .info:last-child {
+        padding-right: 0;
+      }
+
+      .none {
+        display: none;
+      }
+    }
+  }
+
+// LOGOS
+  .client-logos {
+    background-color: #f6f6f6;
+    height: 22.5rem;
+
+    img {
+      width: 94.9rem;
+      height: 6.3rem;
+      padding: 8.1rem 0;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .non {
+      display: block;
+    }
+  }
+
+// HOW WE WORK
+  .how-we-work {
+    background-color: #fff;
+
+    .title {
+      padding: 7.4rem 0;
+      margin: 0 auto;
+    }
+
+    .container {
+      background-color: #f7f7f7;
+
+      .content-container {
+        .content {
+          display: inline-block;
+          width: 50%;
+          vertical-align: top;
+
+          .content-title {
+            color: #408abe;
+            font-family: 'PTmono';
+            font-size: 3rem;
+            font-weight: normal;
+            margin: 7.8rem 0 0 11.6rem;
+          }
+
+          .context {
+            font-family: 'Roboto';
+            font-size: 1.6rem;
+            color: #4a4a4a;
+            width: 36.9rem;
+            margin: 3.3rem 0 0 15.7rem;
+          }
+        }
+
+        .photo-slide {
+          display: inline-block;
+          width: 50%;
+          // height: 47.1rem;
+        }
+
+        .first-slide {
+          margin-top: -2rem;
+        }
+      }
+
+      .container-white {
+        background-color: #fff;
+      }
+    }
+  }
+
+// WHAT YOU WILL GET
+  .what-you-will-get {
+    margin-top: -2em; 
+    background: -moz-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #30c1e8), color-stop(67%, #2ea0dd), color-stop(100%, #2d8dd6));
+    background: -webkit-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -o-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -ms-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: linear-gradient(to bottom, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d8dd6', endColorstr='#30c0e8', GradientType=0 ); 
+    height: 50rem;
+
+    .title {
+      font-family: 'PTmono';
+      font-weight: bold;
+      color: #fdfdfd;
+      padding-top: 9.1rem;
+    }
+
+    .content {
+      width: 119rem;
+      margin: 0 auto;
+
+      .info {
+        display: inline-block;
+        width: 38rem;
+        margin-right: 2.5rem; 
+        height: 14.9rem;
+        background-color: #ffffff;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14);
+
+        .icon {
+          float: left;
+          width: 5rem;
+          height: 5rem;
+          margin: 5rem 1.4rem 0 6.2rem;
+        }
+
+        .text {
+          font-family: 'Roboto';
+          font-size: 1.8rem;
+          font-weight: 300;
+          color: #6c6c6c;
+          margin-top: 5.34rem;
+        }
+      }
+
+      .info:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .start {
+      margin-top: 4.3rem;
+      width: 24.6rem;
+      height: 4.5rem;
+      font-family: 'Roboto';
+      font-size: 2rem;
+      letter-spacing: 0.13rem;
+    }
+  }
+
+// WHO WORKS WITH US
+  .who-works-with-us {
+    background-color: #fff;
+    height: 66rem;
+
+    .title {
+      padding-top: 8.2rem;
+    }
+
+    .slider-box {
+      display: block;
+      width: 65.5rem;
+      height: 18.4rem;
+      text-align: center;
+      margin: 8rem auto 0 auto;
+      color: #4a4a4a;
+      font-family: Helvetica;
+      font-size: 3.2rem;
+      letter-spacing: 0.16rem;
+      font-weight: normal;
+      overflow: hidden;
+
+      .slider {
+        width: 10000px;
+        padding: 0;
+
+        .slide {
+          width: 65.5rem;
+          float: left;
+        }
+      }
+    }
+
+    .partners-slider-box {
+      width: 21.7rem;
+      margin: 3.8rem auto 0 auto;
+      font-family: 'Roboto';
+      font-size: 2rem;
+      color: #408abe;
+      text-align: center;
+      overflow: hidden;
+
+      .partners-slider {
+        width: 10000px;
+        padding: 0;
+
+        .slide {
+          width: 21.7rem;
+          float: left;
+        }
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .photos {
+      width: 47.4rem;
+      margin: 4.6rem auto 0 auto;
+      
+      button {
+          display: inline-block;
+          width: 9rem;
+          height: 9rem;
+          border-radius: 4.5rem;
+          margin-right: 3.8rem;
+          background-color: #408abe;
+          border: none;
+          padding: 0;
+
+        img {
+          width: 9rem;
+          height: 9rem;
+        }
+      }
+
+      button:last-child {
+        margin-right: 0;
+      }
+
+      button:hover {
+        img {
+          opacity: 0.5;
+        }
+      }
+
+      button:focus {
+        outline: none;
+        img {
+          opacity: 0.5;
+        }
+      }
+
+      .active {
+        img {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+// BLUEPRINT
+  .blueprint {
+    background: #f7f7f7;
+    height: 57.5rem;
+    border-top: solid 1px rgba(156,175,195,0.1);
+
+    .title {
+      padding-top: 7.2rem;
+    }
+
+    .sub-title {
+      width: 79.6rem;
+      margin: 4.3rem auto 0 auto;
+      text-align: center;
+      font-size: 1.6rem;
+      letter-spacing: 0.07rem;
+    }
+
+    .content-container {
+      margin: 7.4rem auto 0 auto;
+      width: 96.9rem;
+      background-color: #ffffff;
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.14);
+
+      .icon {
+        float: left;
+        width: 35.4rem;
+        height: 35.5rem;
+        margin: -3rem 5.4rem 0 -6rem;
+      }
+
+      .content {
+        width: 81.9rem;
+        height: 32rem;
+        font-family: 'Roboto';
+        color: #4a4a4a;
+        text-align: left;
+        padding: 2.4rem 3.3rem 0 4.1rem;
+        vertical-align: top;
+
+        .top-text {
+          font-size: 2.6rem;
+          letter-spacing: 0.11rem;
+          text-align: left;
+        }
+
+        .context {
+          font-size: 1.6rem;
+          letter-spacing: 0.07rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+// FREE BLUEPRINT 
+  .free-blueprint {
+    position: relative;
+    margin-top: -0.8rem;
+    z-index: 99;
+    height: 20.9rem;
+    background: rgba(45,141,214,1);
+    background: -moz-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #30c1e8), color-stop(67%, #2ea0dd), color-stop(100%, #2d8dd6));
+    background: -webkit-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -o-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: -ms-linear-gradient(top, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    background: linear-gradient(to bottom, #30c1e8 0%, #2ea0dd 67%, #2d8dd6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d8dd6', endColorstr='#30c0e8', GradientType=0 );
+    color: #fff;
+
+    .title {
+      font-family: 'Roboto';
+      font-size: 2.6rem;
+      font-weight: 500;
+      padding-top: 5.2rem;
+      letter-spacing: 0.1rem;
+      margin-top: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    .get-free {
+      width: 27.8rem;
+      height: 4.44rem;
+      font-size: 2rem;
+      letter-spacing: 0.13rem;
+    }
+  }
+
+// FOOTER
+  footer {
+    z-index: 1;
+    width: 100%;
+    height: 24.7rem;
+    position: fixed;
+    bottom: 0;
+    background: rgba(7,39,61,1);
+    background: -moz-linear-gradient(top, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(7,39,61,1)), color-stop(100%, rgba(12,57,83,1)));
+    background: -webkit-linear-gradient(top, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
+    background: -o-linear-gradient(top, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
+    background: -ms-linear-gradient(top, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
+    background: linear-gradient(to bottom, rgba(12,57,83,1) 0%, rgba(7,39,61,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c3953', endColorstr='#07273d#0c3953', GradientType=0 );
+
+  .footer-container {
+      width: 119.5rem;
+      margin: 0 auto;
+
+      .info {
+        display: inline-block;
+        width: 21rem;
+        padding-top: 5.7rem;
+
+        .logo {
+          width: 19rem;
+          height: 3.8rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .text {
+          font-size: 1.4rem;
+          font-family: 'Roboto';
+          color: #9cafc3;
+        }
+
+        .text:last-child {
+          margin-top: 1.1rem;
+        }
+      }
+
+      .social {
+        display: inline-block;
+        font-family: 'Roboto';
+        font-size: 1.4rem;
+        letter-spacing: 0.21rem;
+        text-transform: uppercase;
+        color: #9cafc3;
+        text-align: left;
+        margin-left: 21.9rem;
+        vertical-align: top;
+        padding-top: 6.61rem;
+
+        .icon {
+          margin-top: 2rem;
+          .twitter img,
+          .youtube img,
+          .facebook img{
+            width: 4rem;
+            height: 4rem;
+            object-fit: contain;
+            margin-right: 2rem;
+          }
+
+          .facebook {
+            margin-right: 0;
+          }
+        }
+      }
+
+      .search {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 8.1rem;
+        margin-left: 9.7rem;
+
+        .search-input {
+          width: 33.3rem;
+          height: 5.45rem;
+          background-color: #ffffff;
+          font-family: 'Roboto';
+          font-size: 2rem;
+          box-shadow: 0 0 16px 2.5px rgba(0, 0, 0, 0.11);
+          border: none;
+          padding-left: 2rem;
+          vertical-align: middle;
+          line-height: 2rem;
+        }
+
+        .search-input::placeholder {
+          font-family: 'Roboto';
+          font-size: 2rem;
+          font-weight: normal;
+          color: #9b9b9b;
+          vertical-align: middle;
+        }
+
+        .subscribe {
+          width: 15.5rem;
+          height: 5.45rem;
+          background-color: #408abe;
+          font-size: 2rem;
+          letter-spacing: 0.04rem;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
