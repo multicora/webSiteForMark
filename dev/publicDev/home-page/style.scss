@@ -25,18 +25,11 @@ $dark-blue-color: #0c3952;
     .logo {
       display: inline-block;
 
-      .logo-icon {
-        width: 6rem;
-        height: 6rem;
-        position: fixed;
-        transition: 3s;
-      }
-
       .logo-scaling {
         height: 3rem;
         width: 7rem;
         position: fixed;
-        left: 6.2rem;
+        left: 2.2rem;
       }
 
       .logo-sales {
@@ -44,26 +37,19 @@ $dark-blue-color: #0c3952;
         width: 5.4rem;
         position: fixed;
         top: 2.3rem;
-        left: 6.4rem;
+        left: 2.4rem;
       }
 
       //Animated
 
-      .logo-icon-animated {
-        width: 3.7rem;
-        height: 3.7rem;
-        transform: translate(24px, 10px);
-        transition: 2s;
-      }
-
       .logo-scaling-animated {
         transform: translate(0px, 12px);
-        transition: 2s;
+        transition: 1s;
       }
 
       .logo-sales-animated {
         transform: translate(67px, -11px);
-        transition: 2s;
+        transition: 1s;
       }
 
       img {
